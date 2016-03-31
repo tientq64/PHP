@@ -3,3 +3,5 @@ P H P
 
 PHP String
 ________________________________________________________________________________________________________________________________________
+  addslashes()              - Trả về chuỗi với dấu gạch chéo ngược "\" ở phía trước của ký tự xác định.
+                            - vd: addslashes("Hello World!","W"); // "Hello \World!"
