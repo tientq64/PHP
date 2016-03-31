@@ -29,7 +29,8 @@ chr( ascii )
       chr( 0x52 );                                  //  "R"
 ______________________________________________________________________________________________________________________________________
 chunk_split( string, length, end )
-- Chia một chuỗi thành một loạt các phần nhỏ hơn, length là một số xác định độ dài mỗi đoạn (tùy chọn, mặc định 76), end là chuỗi nối thêm vào sau mỗi lần chia.
+- Chia một chuỗi thành một loạt các phần nhỏ hơn, length là một số xác định độ dài mỗi đoạn (tùy chọn, mặc định 76), end là chuỗi nối
+  thêm vào sau mỗi lần chia.
 - Vd: chunk_split( "Hello world!", 1, "." );        //  "H.e.l.l.o. .w.o.r.l.d.!."
 ______________________________________________________________________________________________________________________________________
 convert_cyr_string( string, from, to )
